@@ -33,8 +33,6 @@
 
   $scores = array();
 
-  
-
   foreach ($rounds as $round) {
     $score = $score_map[$round[1]] + $round_map[$round[0]][$round[1]];
     
